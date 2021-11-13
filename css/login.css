@@ -1,0 +1,307 @@
+@charset "utf-8";
+/* ********头部******** */
+#JD-head{
+    width: 990px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#JD-head>div{
+    float: left;
+    width: 300px;
+    height: 60px;
+    position: relative;
+    margin: 10px 0;
+}
+#JD-head>div>a{
+    display: inline-block;
+    width: 170px;
+    height: 60px;
+}
+#JD-head>div>a>img{
+    display: block;
+    width: 170px;
+    height: 60px;
+}
+#JD-head>div>span{
+    display: block;
+    width: 110px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: url(https://misc.360buyimg.com/user/passport/1.0.0/css/i/l-icon.png) no-repeat;
+}
+#JD-head>a{
+    float: right;
+    color: #999;
+    position: relative;
+    top: 52px;
+    font-size: 12px;
+}
+#JD-head>a:hover{
+    color: #E4393C;
+    text-decoration: underline;
+}
+#JD-head>a>i{
+    display: inline-block;
+    width: 18px;
+    height: 14px;
+    margin: 0 5px;
+    background: url(https://misc.360buyimg.com/user/passport/1.0.0/css/i/q-icon.png) no-repeat;
+    vertical-align: middle;
+}
+
+
+/* ********登录界面******** */
+.login .tip{
+    background: #fff8f0;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+}
+.login .tip i{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin: -2px 5px 0 0;
+    vertical-align: middle;
+    background: url(https://misc.360buyimg.com/user/passport/1.0.0/widget/login-form-2018-0827/i/icon-tips.png) no-repeat;
+}
+.login .tip a{
+    color: #333;
+}
+.login .tip a:hover{
+    text-decoration: underline;
+}
+.login .login-bg{
+    height: 475px;
+    margin-bottom: 20px;
+    background: #F93537;
+}
+.login .login-bg .login-con{
+    width: 990px;
+    height: 475px;
+    position: relative;
+    background: url(https://img1.360buyimg.com/pop/jfs/t1/147316/10/25368/93917/618910ceEd888e5d9/0dcd0a95c8d4cb2e.jpg) no-repeat;
+    margin: 0 auto;
+}
+.login .login-bg .login-con .login-box{
+    width: 346px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    background: #fff;
+}
+.login .login-box .login-code,.login-box .login-client{
+    width: 173px;
+    height: 54px;
+    border-bottom: 1px solid #f4f4f4;
+    background: #fff;
+    font-size: 18px;
+    text-align: center;
+    position: absolute;
+}
+.login .login-box .login-code>a,.login-box .login-client>a{
+    width: 99%;
+    height: 18px;
+    border-right: 1px solid #f4f4f4;
+    position: absolute;
+    left: 0;
+    top: 18px;
+    color: #666;
+}
+.login .login-box .login-code>a:hover,.login-box .login-client>a:hover{
+    font-weight: 700;
+    color: #E4393C;
+}
+.login .login-box .login-client{
+    right: 0;
+}
+.login .login-box .login-client>a{
+    border-right: none;
+    font-weight: 700;
+    color: #E4393C;
+}
+.login-form{
+    width: 306px;
+    padding: 55px 20px 20px 20px;
+}
+/* 错误提示信息 */
+.login-form .login-msg{
+    min-height: 23px;
+    margin: 5px 0 5px;
+    border: 1px solid #faccc6;
+    background: #ffebeb;
+    padding: 3px 10px 3px 40px;
+    line-height: 15px;
+    font-size: 12px;
+    color: #e4393c;
+    position: relative;
+    box-sizing: border-box;
+    visibility: hidden;
+}
+.login-form .login-msg i{
+    display: block;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 10px;
+    top: calc(50% - 8px);
+    background: url(https://misc.360buyimg.com/user/passport/1.0.0/widget/login-form-2018-0827/i/pwd-icons-new.png) -104px -49px no-repeat;
+}
+/* 用户名和密码 */
+.login-form .login-name,.login-form .login-pw{
+    width: 304px;
+    height: 38px;
+    border: 1px solid #bdbdbd;
+    margin-bottom: 20px;
+    position: relative;
+}
+.login-form form label{
+    width: 38px;
+    height: 38px;
+    /* border: none; */
+    border-right: 1px solid #bdbdbd;
+    background: url(https://misc.360buyimg.com/user/passport/1.0.0/widget/login-form-2018-0827/i/pwd-icons-new.png) no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.login-form .login-name>label{
+    background-position: 0 0;
+}
+.login-form .login-pw>label{
+    background-position: -48px 0;
+}
+.login-form form input{
+    width: 254px;
+    height: 18px;
+    border: none;
+    padding: 10px 0 10px 50px;
+    line-height: 18px;
+    font-size: 14px;
+    outline: none;
+}
+.login-form form input::-webkit-input-placeholder{
+    color: #999;
+}
+.login-form form .clear{
+    float: left;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    right: 6px;
+    top: 12px;
+    background: url(https://misc.360buyimg.com/user/passport/1.0.0/widget/login-form-2018-0827/i/pwd-icons-new.png) -25px -143px no-repeat;
+    cursor: pointer;
+    display: none;
+}
+
+/* 忘记密码 */
+.login-form .forget{
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.login-form .forget a{
+    float: right;
+    font-size: 12px;
+    color: #666;
+}
+.login-form .forget a:hover{
+    color: #E4393C;
+    text-decoration: underline;
+}
+/* 登录按钮 */
+.login-form button{
+    width: 99%;
+    height: 32px;
+    border: 1px solid #cb2a2d;
+    background: #e4393c;
+    line-height: 32px;
+    color: #fff;
+    font-size: 20px;
+    margin: 0 auto 10px;
+    box-sizing: content-box;
+    cursor: pointer;
+}
+/* 登录方式 */
+.login-box .login-mode{
+    height: 50px;
+    padding: 0 20px;
+    line-height: 50px;
+    border-top: 1px solid #f4f4f4;
+    background: #fcfcfc;
+}
+.login-box .login-mode li{
+    float: left;
+}
+.login-box .login-mode ul li:nth-child(3){
+    float: right;
+}
+.login-box .login-mode li a{
+    display: inline-block;
+    padding-left: 24px;
+    position: relative;
+    color: #666;
+    font-size: 12px;
+}
+.login-box .login-mode li a:hover{
+    color: #E4393C;
+    text-decoration: underline;
+}
+.login-box .login-mode ul li:nth-child(1) span{
+    font-size: 12px;
+    padding: 0 10px;
+    color: #ccc;
+}
+.login-box .login-mode li a i{
+    display: block;
+    width: 19px;
+    height: 18px;
+    background: url(https://misc.360buyimg.com/user/passport/1.0.0/widget/login-form-2018-0827/i/QQ-weixin.png) no-repeat;
+    position: absolute;
+    left: 0;
+    top: 16px;
+}
+.login-box .login-mode ul li:nth-child(1) a i{
+    background-position: 0 0;
+}
+.login-box .login-mode ul li:nth-child(2) a i{
+    background-position: -20px 0;
+}
+.login-box .login-mode ul li b{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(https://misc.360buyimg.com/user/passport/1.0.0/widget/login-form-2018-0827/i/pwd-icons-new.png) -104px -75px no-repeat;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.login-box .login-mode ul li:nth-child(3) a{
+    font-size: 14px;
+    color: #b61d1d;
+}
+
+/* ********版权信息******** */
+.copyright{
+    width: 990px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+}
+.copyright a{
+    font-size: 12px;
+    color: #666;
+    margin: 0 10px;
+}
+.copyright a:hover{
+    color: #E4393C;
+    text-decoration: underline;
+}
+.copyright p{
+    margin: 10px 0;
+}

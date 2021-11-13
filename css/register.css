@@ -1,0 +1,174 @@
+@charset "utf-8";
+/* ********头部******** */
+#head{
+    height: 110px;
+    background: url(https://misc.360buyimg.com/user/reg/3.0.0/css/i/headbg.jpg) repeat-x left bottom;
+}
+#head .head-con{
+    width: 1210px;
+    margin: 0 auto;
+}
+#head .head-con>a{
+    float: left;
+    width: 160px;
+    height: 50px;
+    margin-top: 24px;
+    background: url(https://misc.360buyimg.com/user/reg/3.0.0/css/i/icon.png) no-repeat;
+}
+#head .head-con span{
+    float: left;
+    height: 34px;
+    line-height: 34px;
+    font-size: 24px;
+    color: #333;
+    margin-top: 34px;
+}
+#head .head-con p{
+    float: right;
+    margin-top: 55px;
+    font-size: 16px;
+    color: #999;
+}
+#head .head-con p a{
+    color: #e22;
+}
+#head .head-con p a:hover{
+    color: #c81623;
+    text-decoration: underline;
+}
+
+
+/* ********注册界面******** */
+.register{
+    width: 1210px;
+    margin: 0 auto;
+}
+/* 注册头像 */
+.register .reg-img{
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.register .reg-img img{
+    display: block;
+    width: 150px;
+    height: 150px;
+}
+/* 注册表单 */
+.register .reg-form{
+    width: 400px;
+    margin: 50px auto 186px;
+}
+.register .reg-form .input-item{
+    width: 398px;
+    height: 52px;
+    border: 1px solid rgb(153, 153, 153);
+    position: relative;
+}
+.register .reg-form .input-item label{
+    float: left;
+    width: 87px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 20px;
+    font-size: 14px;
+    color: #666;
+}
+.register .reg-form .input-item input{
+    width: 210px;
+    height: 19px;
+    border: none;
+    padding: 16px 2px 11px 20px;
+    outline: none;
+}
+.register .reg-form form div input::-webkit-input-placeholder{
+    color: #ccc;
+    font-size: 14px;
+}
+.register .reg-form .input-tip{
+    height: 32px;
+    line-height: 32px;
+    font-size: 12px;
+    color: #c5c5c5;
+}
+.register .reg-form .input-item .i-suc{
+    display: none;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background: url(https://misc.360buyimg.com/user/reg/3.0.0/css/i/icon.png) 0 -117px no-repeat;
+}
+.register .reg-form .input-item .i-cle{
+    display: none;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    right: 20px;
+    top: 22px;
+    cursor: pointer;
+    background: url(https://misc.360buyimg.com/user/reg/3.0.0/css/i/reg-icon.png) -80px -160px no-repeat;
+}
+.register .reg-form .input-tip>i{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-top: -1px;
+    margin-right: 8px;
+    background: url(https://misc.360buyimg.com/user/reg/3.0.0/css/i/icon.png) no-repeat;
+}
+.register .reg-form .input-tip .i-def{
+    background-position: 0 -100px;
+}
+.register .reg-form .input-tip .i-err{
+    background-position: -17px -100px;
+}
+.register .reg-form .input-tip .i-ruo{
+    background-position: -17px -134px;
+}
+.register .reg-form .input-tip .i-zhong{
+    background-position: -34px -117px;
+}
+.register .reg-form .input-tip .i-qiang{
+    background-position: -34px -134px;
+}
+.register .reg-form button{
+    width: 100%;
+    height: 54px;
+    line-height: 54px;
+    text-align: center;
+    color: #fff;
+    background: #e2231a;
+    border: 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* ********版权信息******** */
+.copyright{
+    width: 1210px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+    border-top: 1px solid #e6e6e6;
+}
+.copyright>div{
+    padding: 30px 0 15px;
+}
+.copyright a{
+    font-size: 12px;
+    color: #999;
+    margin: 0 10px;
+}
+.copyright a:hover{
+    text-decoration: underline;
+}
+.copyright p{
+    margin: 10px 0;
+}
